@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import '../../App.css';
-import logo from '../../assets/images/resources/icon-picture.png';
+import logo from '../../assets/images/resources/icon-id.png';
 import background from '../../assets/images/design/background.jpg';
 import Link from '@material-ui/core/Link';
 import Config from "../../helpers/config";

@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import '../../App.css';
-import background   from '../../assets/images/design/bg-motel.png';
+import background   from '../../assets/images/design/bg-cliente.jpeg';
 import bancolombia  from '../../assets/images/resources/icono-bancolombia.png';
 import sured  from '../../assets/images/resources/icono-sured.png';
 import nequi  from '../../assets/images/resources/icono-nequi.png';
@@ -85,7 +85,7 @@ function App() {
         <div className="container">
           <div className="row justify-content-center mt-4">
             <div className="col-12 col-sm-4 text-center">
-              <div className="App-Question text-center">¿Dónde deseo recibir el pago?</div>
+              <div className="App-Question text-center">¿Dónde deseo recibir el dinero?</div>
             </div>
           </div>
           <div className="row justify-content-center">

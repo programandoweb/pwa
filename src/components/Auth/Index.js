@@ -22,6 +22,10 @@ import EscortRegister10 from "./EscortRegister10";
 //import EscortRegister11 from "./EscortRegister11";
 import EscortRegister12 from "./EscortRegister12";
 import EscortRegister13 from "./EscortRegister13";
+import EscortRegister14 from "./EscortRegister14";
+import EscortRegister15 from "./EscortRegister15";
+
+
 
 import HotelRegister0 from "./HotelRegister0";
 import HotelRegister1 from "./HotelRegister1";
@@ -102,6 +106,8 @@ class App extends React.Component {
 
           <Route exact path="/Auth/EscortRegister12" render={()=><EscortRegister12/>}/>
           <Route exact path="/Auth/EscortRegister13" render={()=><EscortRegister13/>}/>
+          <Route exact path="/Auth/EscortRegister14" render={()=><EscortRegister14/>}/>
+          <Route exact path="/Auth/EscortRegister15" render={()=><EscortRegister15/>}/>
 
 
           <Route exact path="/Auth/HotelRegister0" render={()=><HotelRegister0/>}/>
@@ -114,7 +120,7 @@ class App extends React.Component {
           <Route exact path="/Auth/ClientRegister0" render={()=><ClientRegister0/>}/>
           <Route exact path="/Auth/ClientRegister1" render={()=><ClientRegister1/>}/>
           <Route exact path="/Auth/ClientRegister2" render={()=><ClientRegister2/>}/>
-          <Route exact path="/Auth/ClientRegister2_2" render={()=><ClientRegister2_2/>}/>          
+          <Route exact path="/Auth/ClientRegister2_2" render={()=><ClientRegister2_2/>}/>
           <Route exact path="/Auth/ClientRegister3" render={()=><ClientRegister3/>}/>
           <Route exact path="/Auth/ClientRegister4" render={()=><ClientRegister4/>}/>
           <Route exact path="/Auth/ClientRegister5" render={()=><ClientRegister5/>}/>

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../../App.css';
-import logo from '../../assets/images/resources/icon-mail.png';
+import logo from '../../assets/images/resources/erosapp-user-check.png';
 import background from '../../assets/images/design/bg-escort.jpeg';
 import Link from '@material-ui/core/Link';
 import Config from "../../helpers/config";

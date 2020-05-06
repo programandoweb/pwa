@@ -1,9 +1,14 @@
 import React,{useState,useEffect} from 'react';
 import '../../App.css';
-import background   from '../../assets/images/design/bg-motel.png';
-import bancolombia  from '../../assets/images/resources/icono-bancolombia.png';
-import sured  from '../../assets/images/resources/icono-sured.png';
-import nequi  from '../../assets/images/resources/icono-nequi.png';
+import background   from '../../assets/images/design/bg-cliente.jpeg';
+
+
+import prepago  from '../../assets/images/resources/icono-prepago.png';
+import escort  from '../../assets/images/resources/icono-escort.png';
+import show_strip  from '../../assets/images/resources/icono-show-striptease.png';
+import amanecida  from '../../assets/images/resources/icono-amanecida.png';
+import videollamada  from '../../assets/images/resources/icono-videochat.png';
+
 import Link from '@material-ui/core/Link';
 import Config from "../../helpers/config";
 import Autocomplete from "../Autocomplete";
@@ -85,14 +90,47 @@ function App() {
         <div className="container">
           <div className="row justify-content-center mt-4">
             <div className="col-12 col-sm-4 text-center">
-              <div className="App-Question text-center">¿Dónde deseo recibir el pago?</div>
+              <div className="App-Question text-center">¿Qué servicios ofrezco?</div>
             </div>
           </div>
           <div className="row justify-content-center">
             <div className="col-12 col-sm-4 mt-3">
               <Accounts
-                icon={bancolombia}
-                label="Bancolombia"
+                icon={prepago}
+                label="Prepago"
+                name="number_account_bank"
+                placeholder="1234 567 8910"
+                htmlLabel="30 Minutos"
+              />
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-4 mt-3">
+              <Accounts
+                icon={escort}
+                label="Escort"
+                name="number_identification"
+                placeholder="1234 567 8910"
+                htmlLabel="30 Minutos"
+              />
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-4 mt-3">
+              <Accounts
+                icon={show_strip}
+                label="Show Striptease"
+                name="number_nequi"
+                placeholder="1234 567 8910"
+                htmlLabel="Número de Celular"
+              />
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-4 mt-3">
+              <Accounts
+                icon={amanecida}
+                label="Amanecida"
                 name="number_account_bank"
                 placeholder="1234 567 8910"
                 htmlLabel="Número de cuenta"
@@ -102,22 +140,11 @@ function App() {
           <div className="row justify-content-center">
             <div className="col-12 col-sm-4 mt-3">
               <Accounts
-                icon={sured}
-                label="Sured"
-                name="number_identification"
+                icon={videollamada}
+                label="Videollamada"
+                name="number_account_bank"
                 placeholder="1234 567 8910"
-                htmlLabel="Número de Cédula"
-              />
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-12 col-sm-4 mt-3">
-              <Accounts
-                icon={nequi}
-                label="Nequi"
-                name="number_nequi"
-                placeholder="1234 567 8910"
-                htmlLabel="Número de Celular"
+                htmlLabel="Número de cuenta"
               />
             </div>
           </div>
