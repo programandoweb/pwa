@@ -113,7 +113,7 @@ function App() {
       <form className="App-form App-form-register">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-6 col-sm-8 text-center">
+            <div className="col-6 col-sm-3 text-center">
               <img className="img-fluid" src={logo} alt="ErosApp"/>
             </div>
           </div>

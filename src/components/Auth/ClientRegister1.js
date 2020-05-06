@@ -84,7 +84,7 @@ function App() {
             <div className="col-sm-6">
               <div className="row justify-content-center">
                 <div className="row justify-content-center">
-                  <div className="col-6 col-sm-7 text-center">
+                  <div className="col-6 col-sm-10 text-center">
                     <img className="img-fluid" src={logo} alt="ErosApp"/>
                   </div>
                 </div>
